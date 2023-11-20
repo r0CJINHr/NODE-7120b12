@@ -11,6 +11,12 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
+
+app.use(
+  "/css/bootstrap.css",
+  express.static("public/CSS/bootstrap-5.3.2/dist/css/bootstrap.css")
+);
+
 app.use(favicon(__dirname + "/public/favicon.ico"));
 const port = "3000";
 

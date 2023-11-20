@@ -1,0 +1,18 @@
+// @import "NODE 7120b1/views/partials/header.scss";
+// @import "./NODE\ 7120b1/views/partials/header.scss";
+
+@import "./bootstrap-5.3.2/scss/variables";
+@import "./bootstrap-5.3.2/scss/mixins";
+@import "./bootstrap-5.3.2/scss/functions";
+@import "./bootstrap-5.3.2/scss/utilities";
+@import "./bootstrap-5.3.2/scss/maps";
+@import "./bootstrap-5.3.2/scss/grid";
+
+// @import "./bootstrap-5.3.2";
+
+$navbar-default-brand-color:$red;
+$navbar-color:$red;
+
+* {
+    text-decoration: dashed;
+    }
