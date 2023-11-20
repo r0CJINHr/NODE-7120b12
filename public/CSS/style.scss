@@ -1,18 +1,32 @@
-// @import "NODE 7120b1/views/partials/header.scss";
-// @import "./NODE\ 7120b1/views/partials/header.scss";
 
-@import "./bootstrap-5.3.2/scss/variables";
-@import "./bootstrap-5.3.2/scss/mixins";
 @import "./bootstrap-5.3.2/scss/functions";
-@import "./bootstrap-5.3.2/scss/utilities";
-@import "./bootstrap-5.3.2/scss/maps";
-@import "./bootstrap-5.3.2/scss/grid";
+@import "./bootstrap-5.3.2/scss/variables";
+@import "./bootstrap-5.3.2/scss/variables-dark";
+@import "./bootstrap-5.3.2/scss/mixins";
 
-// @import "./bootstrap-5.3.2";
 
 $navbar-default-brand-color:$red;
 $navbar-color:$red;
 
 * {
-    text-decoration: dashed;
+        font-size: 30px;
+        text-decoration: underline;
+        color: rgb(9, 132, 132) ;
     }
+
+    .btn-outline-success {
+        --bs-btn-color: #198754;
+        --bs-btn-border-color: #198754;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #878319;
+        --bs-btn-hover-border-color: #198754;
+        --bs-btn-focus-shadow-rgb: 25, 135, 84;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #198754;
+        --bs-btn-active-border-color: #198754;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #198754;
+        --bs-btn-disabled-bg: transparent;
+        --bs-btn-disabled-border-color: #198754;
+        --bs-gradient: none;
+      }
