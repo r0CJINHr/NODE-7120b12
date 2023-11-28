@@ -3,7 +3,10 @@ const favicon = require("express-favicon");
 const path = require("path");
 const fs = require("fs");
 const ejs = require("ejs");
+
 const app = express();
+const myRoutes=require("./routers/index_routers");
+
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
@@ -20,23 +23,7 @@ app.use(
 app.use(favicon(__dirname + "/public/favicon.ico"));
 const port = "3000";
 
-app.get("/", (req, res) => {
-  addLine("Пинганули /");
-  res.sendFile(path.join(__dirname + "/public/index.html"));
-});
-
-app.get("/test", (req, res) => {
-  addLine("Пинганули /test");
-
-  console.log("прошли по пути test");
-  res.end("прошли ");
-});
-
-app.post("/test", (req, res) => {
-  addLine("Пинганули /test");
-  console.log("прошли по пути post test");
-  res.end("прошли post test");
-});
+app.use(myRoutes);
 
 function addLine(line) {
   line = line + " timestamp: " + new Date().toLocaleString();
@@ -48,6 +35,9 @@ function addLine(line) {
     }
   );
 }
+
+
+
 //error handler
 
 app.use(function (req, res, next) {
