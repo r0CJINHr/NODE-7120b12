@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
 router.post("/", function (req, res) {});
 
 router.get("/register", register.form);
-router.post("/register", function (req, res) {});
+router.post("/register", register.submit);
 
 // app.post("/test", (req, res) => {
 //     addLine("Пинганули /test");
