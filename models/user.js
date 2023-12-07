@@ -36,3 +36,5 @@ class User {
     if (result) return cb(user); // TODO check
   }
 }
+
+module.exports = User;

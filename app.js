@@ -4,8 +4,8 @@ const path = require("path");
 const fs = require("fs");
 const ejs = require("ejs");
 
-const app = express();
 const myRoutes=require("./routers/index_routers");
+const app = express();
 
 
 app.set("view engine", "ejs");
@@ -51,8 +51,8 @@ app.use(function (req, res, next) {
 if (app.get("env") != "development") {
   app.use(function (err, req, res, next) {
     res.status = 404;
-    let img1 = "http://loc";
-    res.render("error", {err,img1});
+   
+    res.render("error", {err});
   });
 } else {
   app.use(function (err, req, res, next) {

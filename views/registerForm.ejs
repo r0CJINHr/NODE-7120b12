@@ -2,41 +2,84 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title><%#= title %></title>
+    <link rel="stylesheet" href="/css/bootstrap.css" />
   </head>
   <body>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam aliquid
-    iusto incidunt ipsam aperiam eligendi pariatur consequuntur porro iure qui
-    error vel unde, illo asperiores nobis non fugit assumenda soluta.
-    Reprehenderit repellat dolor ipsam totam, vel natus earum suscipit
-    inventore, officia perspiciatis animi similique doloribus magni perferendis.
-    Sequi reiciendis illo nemo placeat fugit nulla libero veritatis
-    exercitationem nisi. Corrupti, veniam. Fuga, deleniti ullam libero
-    perferendis incidunt adipisci, quibusdam accusantium consectetur obcaecati
-    eius laboriosam quae ad, cupiditate facere suscipit ipsa sint sunt
-    exercitationem earum consequuntur aliquam ratione explicabo culpa tenetur.
-    Voluptatibus. Asperiores laborum sit maxime praesentium omnis, rem veniam
-    repellat eos reiciendis, voluptatibus, esse pariatur officiis quos dolorem
-    tenetur? Fugiat quibusdam consectetur distinctio et? Totam fugiat animi at
-    esse asperiores rem? Quisquam explicabo eaque repudiandae ea cupiditate
-    architecto minima, molestias nisi non laudantium deserunt corporis nostrum
-    consequatur. Unde impedit, aut magnam nisi cum non delectus sed quisquam
-    ipsum architecto accusantium obcaecati. Numquam corporis quasi consectetur
-    tempora natus delectus repellendus autem quidem aspernatur perspiciatis,
-    libero suscipit reiciendis enim sint cumque iste aut nihil nobis inventore!
-    Eligendi iure autem magni delectus velit quia! Quis illo animi est debitis
-    non quas suscipit. Reprehenderit voluptate dolore harum architecto nisi,
-    totam non corporis magni optio ea accusantium qui corrupti nemo itaque quasi
-    veniam saepe ex dignissimos? Consequuntur in sequi ea impedit nihil vero
-    officia quaerat nam aliquid itaque consectetur adipisci eius, dolorum amet.
-    Quod, debitis. Ad facere quae sunt quaerat delectus sint officia nulla
-    maiores molestiae! Quos odit suscipit, inventore at dolorum placeat sed
-    dolorem eum provident corporis reprehenderit. Assumenda fugiat, commodi
-    dicta ducimus voluptatum atque alias enim quas, sint neque delectus
-    voluptatem quae suscipit rem? Consectetur maxime vitae quisquam, commodi
-    odit maiores sit ipsa magnam suscipit alias ad quasi molestias quae
-    quibusdam. Iste, quam nam? Dolores doloribus totam quam eos sed modi
-    repellat. Laboriosam, eligendi!
+    <%#- include ('./partials/menu') %>
+    <h1><%#= title %></h1>
+    <p>Заполните форму ниже чтобы зарегистрироваться</p>
+    <%#- include ('./partials/messages') %>
+    <div class="container">
+      <form action="/register" method="post">
+        <div class="mb-3 row">
+          <label for="inputName" class="col-4 col-form-label"
+            >Имя пользователя</label
+          >
+          <div class="col-8">
+            <input
+              type="text"
+              class="form-control"
+              name="dataForm[name]"
+              id="inputName"
+              placeholder="User name"
+            />
+          </div>
+        </div>
+
+        <div class="mb-3 row">
+          <label for="inputEmail" class="col-4 col-form-label"
+            >Email пользователя</label
+          >
+          <div class="col-8">
+            <input
+              type="text"
+              class="form-control"
+              name="dataForm[email]"
+              id="inputEmail"
+              placeholder="User email"
+            />
+          </div>
+        </div>
+
+        <div class="mb-3 row">
+          <label for="inputPass" class="col-4 col-form-label">Пароль</label>
+          <div class="col-8">
+            <input
+              type="password"
+              class="form-control"
+              name="dataForm[password]"
+              id="inputPass"
+              placeholder="dataForm password"
+            />
+          </div>
+        </div>
+
+        <div class="mb-3 row">
+          <label for="inputAge" class="col-4 col-form-label"
+            >Возраст пользователя</label
+          >
+          <div class="col-8">
+            <input
+              type="text"
+              class="form-control"
+              name="dataForm[age]"
+              id="inputAge"
+              placeholder="dataForm age"
+            />
+          </div>
+        </div>
+
+        <div class="mb-3 row">
+          <div class="offset-sm-4 col-sm-8">
+            <button type="submit" value="SignUp" class="btn btn-primary">
+              Регистрация
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
