@@ -5,7 +5,9 @@ const register = require("../controllers/register");
 const entries = require("../controllers/entries");
 // const login = require("../controllers/login");
 
-router.get("/a", entries.list);
+
+
+router.get("/", entries.list);
 // router.post("/post", entry.form);
 
 // router.get("/login", login.form);

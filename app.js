@@ -5,6 +5,8 @@ const fs = require("fs");
 const ejs = require("ejs");
 
 const myRoutes=require("./routers/index_routers");
+const entries = require("./controllers/entries");
+
 const app = express();
 
 
@@ -23,7 +25,8 @@ app.use(
 app.use(favicon(__dirname + "/public/favicon.ico"));
 const port = "3000";
 
-app.use(myRoutes);
+app.use( myRoutes);
+
 
 function addLine(line) {
   line = line + " timestamp: " + new Date().toLocaleString();
