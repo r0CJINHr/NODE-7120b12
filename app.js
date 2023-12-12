@@ -3,13 +3,12 @@ const favicon = require("express-favicon");
 const path = require("path");
 const fs = require("fs");
 const ejs = require("ejs");
-const  = require("ejs");
 const session = require("express-session");
 
 
 const myRoutes=require("./routers/index_routers");
 // const entries = require("./controllers/entries");
-const userSession = require("./middleware/userSession");
+const userSession = require("./middleware/user_session");
 
 const app = express();
 

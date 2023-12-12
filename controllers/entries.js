@@ -1,9 +1,8 @@
 const Entry = require("../models/entry");
 
-exports.list = (req, res) => {
+exports.list = (req, res, next) => {
   res.render("entries", { title: "List" });
 };
-
 
 exports.form = (req, res) => {
   res.render("post", { title: "Post" });

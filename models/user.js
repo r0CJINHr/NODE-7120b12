@@ -3,7 +3,7 @@ const db = new sqlite3.Database("test.db");
 const bcrypt = require("bcrypt");
 
 const sql =
-  "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, email TEXT NOT NULL, password TEXT NOT NULL,age INTEGER NOT NULL)";
+  "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, email TEXT NOT NULL, password TEXT NOT NULL, age INTEGER NOT NULL)";
 
 db.run(sql);
 
@@ -26,15 +26,19 @@ class User {
     db.get("SELECT * FROM users WHERE email = ?", email, cb);
   }
 
-  
-  static authentificate(dataForm, cb) {
-    User.findByEmail(dataForm.email, (err, user) => {
+  static async authentificate(dataForm, cb) {
+    User.findByEmail(dataForm.email,  (err, user) => {
       if (err) return cb(err);
       if (!user) return cb();
+      const result = bcrypt.compare(
+        dataForm.password,
+        user.password,
+        (err, result) => {
+          if (result) return cb(null, user);
+          cb();
+        }
+      );
     });
-
-    const result = bcrypt.compare(dataForm.password, user.password);
-    if (result) return cb(user); // TODO check
   }
 }
 
