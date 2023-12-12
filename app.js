@@ -21,6 +21,7 @@ app.use(
 );
 
 app.use(favicon(__dirname + "/public/favicon.ico"));
+
 const port = "3000";
 
 app.use(myRoutes);
@@ -51,8 +52,7 @@ app.use(function (req, res, next) {
 if (app.get("env") != "development") {
   app.use(function (err, req, res, next) {
     res.status = 404;
-    let img1 = "http://loc";
-    res.render("error", {err,img1});
+    res.render("error");
   });
 } else {
   app.use(function (err, req, res, next) {

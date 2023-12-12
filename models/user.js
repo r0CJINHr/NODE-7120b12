@@ -10,7 +10,8 @@ db.run(sql);
 class User {
   constructor() {}
 
-  static async create(dataForm, cb) {
+
+  static async create(dataForm,next, cb) {
     try {
       const salt = await bcrypt.genSalt(10);
       const hash = await bcrypt.hash(dataForm.password, salt);
@@ -36,3 +37,5 @@ class User {
     if (result) return cb(user); // TODO check
   }
 }
+
+module.exports = User;
