@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%= title %></title>
+    <title><%#= title %></title>
     <link rel="stylesheet" href="/css/bootstrap.css" />
   </head>
   <body>
@@ -22,7 +22,7 @@
             <input
               type="text"
               class="form-control"
-              name="name"
+              name="dataForm[name]"
               id="inputName"
               placeholder="User name"
             />
@@ -37,7 +37,7 @@
             <input
               type="text"
               class="form-control"
-              name="email"
+              name="dataForm[email]"
               id="inputEmail"
               placeholder="User email"
             />
@@ -50,9 +50,9 @@
             <input
               type="password"
               class="form-control"
-              name="password"
+              name="dataForm[password]"
               id="inputPass"
-              placeholder="password"
+              placeholder="dataForm password"
             />
           </div>
         </div>
@@ -65,9 +65,9 @@
             <input
               type="text"
               class="form-control"
-              name="age"
+              name="dataForm[age]"
               id="inputAge"
-              placeholder="age"
+              placeholder="dataForm age"
             />
           </div>
         </div>

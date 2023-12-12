@@ -34,7 +34,7 @@ class User {
     });
 
     const result = bcrypt.compare(dataForm.password, user.password);
-    if (result) return cb(user); // TODO check
+    if (result) return cb(user); // 
   }
 }
 

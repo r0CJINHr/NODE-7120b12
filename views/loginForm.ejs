@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <title><%= title %></title> -->
+    <title><%= title %></title>
     <link rel="stylesheet" href="/css/bootstrap.css" />
   </head>
   <body>
-    <!-- <%- include ('./partials/menu') %> -->
-    <!-- <h1><%= title %></h1> -->
+    <%#- include ('./partials/menu') %>
+    <h1><%= title %></h1>
     <p>Заполните форму ниже чтобы зарегистрироваться</p>
-    <!-- <%- include ('./partials/messages') %> -->
+    <%#- include ('./partials/messages') %>
     <div class="container">
       <form action="/login" method="post">
         <div class="mb-3 row">
@@ -22,9 +22,9 @@
             <input
               type="text"
               class="form-control"
-              name="user[name]"
+              name="loginForm[email]"
               id="inputName"
-              placeholder="Username"
+              placeholder="UserEmail"
             />
           </div>
         </div>
@@ -35,7 +35,7 @@
             <input
               type="password"
               class="form-control"
-              name="user[password]"
+              name="loginForm[password]"
               id="inputPass"
               placeholder="password"
             />
