@@ -3,9 +3,13 @@ const favicon = require("express-favicon");
 const path = require("path");
 const fs = require("fs");
 const ejs = require("ejs");
+const  = require("ejs");
+const session = require("express-session");
+
 
 const myRoutes=require("./routers/index_routers");
-const entries = require("./controllers/entries");
+// const entries = require("./controllers/entries");
+const userSession = require("./middleware/userSession");
 
 const app = express();
 
@@ -22,9 +26,12 @@ app.use(
   express.static("public/CSS/bootstrap-5.3.2/dist/css/bootstrap.css")
 );
 
+app.use(session({secret: "secret1", resave:false, saveUninitialized:true}));
+
 app.use(favicon(__dirname + "/public/favicon.ico"));
 const port = "3000";
 
+app.use( userSession); // получаем объект user в форме res.locals.user и req.user обязательно выше routes
 app.use( myRoutes);
 
 

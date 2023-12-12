@@ -26,6 +26,7 @@ class User {
     db.get("SELECT * FROM users WHERE email = ?", email, cb);
   }
 
+  
   static authentificate(dataForm, cb) {
     User.findByEmail(dataForm.email, (err, user) => {
       if (err) return cb(err);
