@@ -18,4 +18,9 @@ exports.submit = (req, res, next) => {
   });
 };
 
-exports.logout = function(req, res) {};
+exports.logout = function (req, res, next) {
+  req.session.destroy((err) => {
+    if (err) return next(err);
+    res.redirect("/");
+  });
+};

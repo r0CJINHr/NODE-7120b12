@@ -10,8 +10,7 @@ db.run(sql);
 class User {
   constructor() {}
 
-
-  static async create(dataForm,next, cb) {
+  static async create(dataForm, cb) {
     try {
       const salt = await bcrypt.genSalt(10);
       const hash = await bcrypt.hash(dataForm.password, salt);
@@ -31,10 +30,16 @@ class User {
     User.findByEmail(dataForm.email, (err, user) => {
       if (err) return cb(err);
       if (!user) return cb();
-    });
 
-    const result = bcrypt.compare(dataForm.password, user.password);
-    if (result) return cb(user); // 
+      const result = bcrypt.compare(
+        dataForm.password,
+        user.password,
+        (err, result) => {
+          if (result) return cb(null, user);
+          cb();
+        }
+      );
+    });
   }
 }
 
