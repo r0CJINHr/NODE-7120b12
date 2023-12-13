@@ -29,16 +29,6 @@ app.use(favicon(__dirname + "/public/favicon.ico"));
 app.use(userSession);
 app.use(myRoutes);
 
-function addLine(line) {
-  line = line + " timestamp: " + new Date().toLocaleString();
-  fs.appendFile(
-    path.join(__dirname + "/public/logger.txt"),
-    line + "\n",
-    (err) => {
-      if (err) console.log(err);
-    }
-  );
-}
 
 //error handler
 
