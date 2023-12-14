@@ -6,8 +6,8 @@ const login = require("../controllers/login");
 const entries = require("../controllers/entries");
 
 router.get("/", entries.list);
-router.post("/entry", entries.form);
 router.post("/post", entries.submit);
+router.get("/post", entries.form);
 
 router.get("/login", login.form);
 router.post("/login", login.submit);
