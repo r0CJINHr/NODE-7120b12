@@ -2,12 +2,13 @@ const express = require("express");
 const favicon = require("express-favicon");
 const path = require("path");
 const fs = require("fs");
-const ejs = require("ejs");
+// const ejs = require("ejs");
 const session = require("express-session");
 
 const app = express();
 const myRoutes = require("./routers/index_routers");
 const userSession = require("./middleware/user_session");
+const messages = require("./middleware/messages");
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
@@ -26,6 +27,7 @@ app.use(
 
 app.use(favicon(__dirname + "/public/favicon.ico"));
 
+app.use(messages);
 app.use(userSession);
 app.use(myRoutes);
 

@@ -4,10 +4,12 @@ const router = express.Router();
 const register = require("../controllers/register");
 const login = require("../controllers/login");
 const entries = require("../controllers/entries");
+const validate = require("../middleware/validate");
+
 
 router.get("/", entries.list);
-router.post("/post", entries.submit);
 router.get("/post", entries.form);
+router.post("/post", validate.required("entry[title]"), validate.lengthAbove("entry[title],4"), entries.submit);
 
 router.get("/login", login.form);
 router.post("/login", login.submit);

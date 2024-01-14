@@ -8,7 +8,7 @@ exports.submit = (req, res, next) => {
   User.authentificate(req.body.loginForm, (err, data) => {
     if (err) return next(err);
     if (!data) {
-      console.log("Имя или пароль неверный");
+      res.error("Имя или пароль неверный");
       res.redirect("back"); //
     } else {
       req.session.userEmail = data.email;
