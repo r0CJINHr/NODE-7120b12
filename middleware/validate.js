@@ -1,5 +1,5 @@
 const getField = (req, field) => {
-  let value;
+  let value =req.body;
   field.forEach((element) => {
     value = req.body[element];
   });
@@ -15,7 +15,7 @@ exports.required = (field) => {
     if (getField(req, field)) {
       next();
     } else {
-      res.error("Required"); // готовит сообщение пользователю
+      res.error(`Поле ${field.join(" ")} не заполнено`); // готовит сообщение пользователю
       res.redirect("back");
     }
   };
@@ -27,7 +27,7 @@ exports.lengthAbove = (field, len) => {
     if (getField(req, field).length>len) {
       next();
     } else {
-      res.error("Required"); // готовит сообщение пользователю
+      res.error(`Поле ${field.join(" ")} должно быть более 4 знаков`); // готовит сообщение пользователю
       res.redirect("back");
     }
   };

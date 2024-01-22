@@ -8,8 +8,8 @@ const validate = require("../middleware/validate");
 
 router.get("/", entries.list);
 router.get("/post", entries.form);
-router.post("/post",  validate.required("entry[title]"),validate.required("entry[content]"),
-validate.lengthAbove("entry[title]"),entries.submit);
+router.post("/post", validate.required("title"),validate.required("content"),
+validate.lengthAbove("title",4),entries.submit);
 
 router.get("/login", login.form);
 router.post("/login",  login.submit);

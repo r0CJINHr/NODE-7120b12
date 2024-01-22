@@ -13,6 +13,7 @@ exports.form = (req, res) => {
 
 exports.submit = (req, res, next) => {
   try {
+    
     const username = req.user ? req.user.name : null;
     const data = req.body.entry;
 
