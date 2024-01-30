@@ -11,7 +11,7 @@ exports.list = (req, res, next) => {
 
 exports.form = (req, res) => {
   res.render("post", { title: "Post" });
-  logger.warning("Зашли на страницу сщздания постов");
+  logger.warn("Зашли на страницу создания постов");
 };
 
 exports.submit = (req, res, next) => {

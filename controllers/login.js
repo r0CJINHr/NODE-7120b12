@@ -1,7 +1,11 @@
 const User = require("../models/user");
+const logger = require('../logger/index');
+
 
 exports.form = (req, res) => {
   res.render("loginForm", { title: "Login" });
+  logger.error("Зашли");
+
 };
 
 exports.submit = (req, res, next) => {
