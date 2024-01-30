@@ -1,14 +1,17 @@
+const logger = require('../logger/index');
 const Entry = require("../models/entry");
 
 exports.list = (req, res, next) => {
   Entry.selectAll((err, entries) => {
     if (err) return next(err);
     res.render("entries", { title: "List", entries: entries });
+    logger.info("Зашли на главную страницу");
   });
 };
 
 exports.form = (req, res) => {
   res.render("post", { title: "Post" });
+  logger.warning("Зашли на страницу сщздания постов");
 };
 
 exports.submit = (req, res, next) => {
