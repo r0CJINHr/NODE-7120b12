@@ -1,6 +1,7 @@
 const logger = require('../logger/index');
 const Entry = require("../models/entry");
 const logger = require("../logger/index_logger");
+const logger = require("../logger/index_logger");
 
 exports.list = (req, res, next) => {
   Entry.selectAll((err, entries) => {
