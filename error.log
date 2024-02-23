@@ -149,3 +149,273 @@
   level: 'info',
   timestamp: '2024-02-23T20:22:34.264Z'
 }
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:28:12.520Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-02-23T20:28:19.103Z'
+}
+{
+  message: 'Token login [object Object] transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-23T20:28:20.840Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:28:20.866Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-02-23T20:28:27.227Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:28:44.663Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:29:55.419Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:32:08.712Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-02-23T20:33:18.193Z'
+}
+{
+  message: 'Token login [object Object] transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-23T20:33:26.313Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:33:26.332Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:36:12.170Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-02-23T20:36:14.622Z'
+}
+{
+  message: 'Token login [object Object] transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-23T20:36:21.319Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:36:21.336Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:36:44.706Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-02-23T20:36:48.472Z'
+}
+{
+  message: 'Token login [object Object] transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-23T20:36:50.584Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:36:50.599Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:37:08.329Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-02-23T20:37:34.019Z'
+}
+{
+  message: 'Token accepted successfully',
+  level: 'info',
+  timestamp: '2024-02-23T20:38:38.345Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:38:38.371Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-02-23T20:38:41.030Z'
+}
+{
+  message: 'Token login [object Object] transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-23T20:38:42.508Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:38:42.524Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-02-23T20:38:43.996Z'
+}
+{
+  message: 'Token accepted successfully',
+  level: 'info',
+  timestamp: '2024-02-23T20:38:57.189Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:38:57.205Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-02-23T20:39:24.306Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-02-23T20:39:33.032Z'
+}
+{
+  message: 'Token login [object Object] transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-23T20:39:34.230Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:39:34.245Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-02-23T20:39:56.047Z'
+}
+{
+  message: 'Token accepted successfully',
+  level: 'info',
+  timestamp: '2024-02-23T20:40:06.998Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-02-23T20:40:07.014Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:40:59.464Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-02-23T20:41:03.407Z'
+}
+{
+  message: 'Token login [object Object] transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-23T20:41:12.533Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:41:12.542Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:42:10.949Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:42:14.986Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-02-23T20:42:19.027Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:42:24.125Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:42:26.612Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-02-23T20:42:28.212Z'
+}
+{
+  message: 'Token login [object Object] transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-23T20:42:34.993Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:42:35.003Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-02-23T20:43:27.845Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-02-23T20:43:38.520Z'
+}
+{
+  message: 'Token accepted successfully',
+  level: 'info',
+  timestamp: '2024-02-23T20:43:43.336Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:43:43.353Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-23T20:44:10.861Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-02-23T20:45:27.305Z'
+}
