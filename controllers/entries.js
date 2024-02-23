@@ -1,4 +1,3 @@
-const logger = require('../logger/index');
 const Entry = require("../models/entry");
 const logger = require("../logger/index_logger");
 
