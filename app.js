@@ -2,9 +2,8 @@ const express = require("express");
 const favicon = require("express-favicon");
 const path = require("path");
 const fs = require("fs");
-const ejs = require("ejs");
 const session = require("express-session");
-// const morgan = require('morgan')
+const cookieParser = require("cookie-parser");
 
 const app = express();
 const myRoutes = require("./routers/index_routers");
@@ -21,7 +20,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 // app.use(morgan('combined'));
 
-app.use(session({ secret: process.env.SECRET, resave: false, saveUninitialized: true }));
+app.use(session({ secret: "aboba", resave: false, saveUninitialized: true }));
+app.use(cookieParser());
 
 app.use(
   "/css/bootstrap.css",

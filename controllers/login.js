@@ -1,6 +1,7 @@
 const User = require("../models/user");
-const logger = require('../logger/index');
-
+const jwt = require("jsonwebtoken");
+const logger = require("../logger/index_logger");
+require("dotenv").config();
 
 exports.form = (req, res) => {
   res.render("loginForm", { title: "Login" });
@@ -17,12 +18,23 @@ exports.submit = (req, res, next) => {
     } else {
       req.session.userEmail = data.email;
       req.session.userName = data.name;
-      res.redirect("/"); //
+      // генерация токена
+      const jwt_time = process.env.jwtTime;
+      const token = jwt.sign({ name: data.email }, process.env.jwtToken, {
+        expiresIn: jwt_time,
+      });
+      res.cookie("jwt", token, {
+        httpOnly: true,
+        maxAge: jwt_time,
+      });
+      logger.info("Token login " + " transferred successfully");
+      res.redirect("/");
     }
   });
 };
 
 exports.logout = function (req, res, next) {
+  res.clearCookie("jwt");
   req.session.destroy((err) => {
     if (err) return next(err);
     res.redirect("/");

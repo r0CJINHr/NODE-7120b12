@@ -1,5 +1,6 @@
 const logger = require('../logger/index');
 const Entry = require("../models/entry");
+const logger = require("../logger/index_logger");
 
 exports.list = (req, res, next) => {
   Entry.selectAll((err, entries) => {
@@ -16,7 +17,6 @@ exports.form = (req, res) => {
 
 exports.submit = (req, res, next) => {
   try {
-    
     const username = req.user ? req.user.name : null;
     const data = req.body.entry;
 

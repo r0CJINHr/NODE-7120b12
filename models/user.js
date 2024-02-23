@@ -12,7 +12,8 @@ class User {
 
   static async create(dataForm, cb) {
     try {
-      const salt = await bcrypt.genSalt(process.env.SALT);
+      const SALT = Number(process.env.SALT);
+      const salt = await bcrypt.genSalt(SALT);
       const hash = await bcrypt.hash(dataForm.password, salt);
       const sql1 =
         "INSERT INTO users (name, email, password, age) VALUES (?, ?, ?, ?)";
