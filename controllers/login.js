@@ -27,8 +27,9 @@ exports.submit = (req, res, next) => {
         httpOnly: true,
         maxAge: jwt_time,
       });
-      logger.info("Token login " + " transferred successfully");
+
       res.redirect("/");
+      logger.info("Token login " +res+ " transferred successfully");
     }
   });
 };
