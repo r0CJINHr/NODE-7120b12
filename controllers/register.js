@@ -25,6 +25,7 @@ exports.submit = (req, res, next) => {
       const token = jwt.sign({ name: req.body.dataForm.email }, process.env.jwtToken, {
         expiresIn: jwt_time,
       });
+      //создание cookies для пользователя
       res.cookie("jwt", token, {
         httpOnly: true,
         maxAge: jwt_time,
