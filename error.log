@@ -419,3 +419,38 @@
   level: 'warn',
   timestamp: '2024-02-23T20:45:27.305Z'
 }
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-02T12:38:37.440Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-02T12:38:41.138Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-03-02T12:38:50.693Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-02T12:38:50.702Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-03-02T12:38:53.598Z'
+}
+{
+  message: 'Token accepted successfully',
+  level: 'info',
+  timestamp: '2024-03-02T12:38:58.851Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-02T12:38:58.914Z'
+}

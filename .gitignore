@@ -3,3 +3,4 @@ test.db
 error.log
 .env
 combined.log
+error.log
