@@ -26,6 +26,7 @@ app.use(session({ secret: "aboba", resave: false, saveUninitialized: true }));
 app.use(cookieParser());
 
 app.use(passport.initialize());
+app.use(passport.session());
 passportFunction(passport);
 
 app.use(
@@ -41,16 +42,6 @@ app.use(userSession);
 app.use(myRoutes);
 
 
-function addLine(line) {
-  line = line + " timestamp: " + new Date().toLocaleString();
-  fs.appendFile(
-    path.join(__dirname + "/public/logger.txt"),
-    line + "\n",
-    (err) => {
-      if (err) console.log(err);
-    }
-  );
-}
 
 //error handler
 

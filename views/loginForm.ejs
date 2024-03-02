@@ -10,7 +10,18 @@
   <body>
     <%- include ('./partials/menu') %>
     <h1><%= title %></h1>
-    <p>Заполните форму ниже чтобы зарегистрироваться</p>
+    <div class="container">
+      <div class="mb-3 row">
+        <div class="offset-sm-4 col-sm-8">
+          <a href="/auth/yandex">
+            <button value="Yandex" class="btn btn-primary">
+              Войти через Yandex
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p>Заполните форму ниже чтобы войти</p>
     <%- include ('./partials/messages') %>
     <div class="container">
       <form action="/login" method="post">
