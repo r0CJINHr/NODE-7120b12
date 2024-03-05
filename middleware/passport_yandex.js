@@ -5,6 +5,8 @@ require("dotenv").config();
 
 function passportFunction(passport) {
   passport.serializeUser(function (user, done) {
+    //создать user в формате базы данных name,email,age
+
     done(null, user);
   });
 
@@ -31,7 +33,11 @@ function passportFunction(passport) {
           // to represent the logged-in user.  In a typical application, you would
           // want to associate the Yandex account with a user record in your
           // database, and return that user instead.
-          logger.info("Получили профиль от Yandex " + profile.name.familyName+ profile.name.givenName);
+          logger.info(
+            "Получили профиль от Yandex " +
+              profile.name.familyName +
+              profile.name.givenName
+          );
           return done(null, profile);
         });
       }

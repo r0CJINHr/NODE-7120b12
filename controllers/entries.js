@@ -18,6 +18,7 @@ exports.submit = (req, res, next) => {
   try {
     const username = req.user ? req.user.name : null;
     const data = req.body.entry;
+    logger.warn("создан пост "+username);
 
     const entry = {
       username: username,
