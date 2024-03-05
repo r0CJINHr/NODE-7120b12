@@ -8,7 +8,7 @@ const entries = require("../controllers/entries");
 const validate = require("../middleware/validate");
 const ensureAuthenticated = require("../middleware/isAuthenticate");
 
-router.get("/", ensureAuthenticated, entries.list);
+router.get("/", entries.list);
 
 router.get("/post", ensureAuthenticated, entries.form);
 router.post(

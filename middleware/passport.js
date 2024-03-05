@@ -12,15 +12,21 @@ function passportFunction(passport) {
   //   have a database of user records, the complete Yandex profile is
   //   serialized and deserialized.
   passport.serializeUser(function (user, done) {
-    done(null, user);
+    //создать user  в формате базы данных name,email, age
+    //  у меня сейчас user.username= "xdepi36", user.name= {familyName:'Денис', givenName:'Пискаев'}, user.birthday:' '.
+    userNew = {};
+    userNew.name = user.displayName;
+    userNew.email = user.emails[0].value;
+    userNew.age = user.birthday ? date.now() - user.birthday : 20;
+    done(null, userNew);
   });
-
+  
   passport.deserializeUser(function (obj, done) {
     done(null, obj);
-    logger.info(obj.name.givenName);
     return obj;
   });
-
+  
+  const accessToken = process.env.ACCESS_TOKEN;
   passport.use(
     new YandexStrategy(
       {
@@ -28,12 +34,7 @@ function passportFunction(passport) {
         clientSecret: process.env.YANDEX_CLIENT_SECRET,
         callbackURL: "http://127.0.0.1:3000/auth/yandex/callback",
       },
-      function (
-        y0_AgAAAAAQTWdfAAtidwAAAAD85OsrAABuXBYMS3VBL4nSipXR08NH478NUQ,
-        refreshToken,
-        profile,
-        done
-      ) {
+      function (accessToken, refreshToken, profile, done) {
         // asynchronous verification, for effect...
         process.nextTick(function () {
           // To keep the example simple, the user's Yandex profile is returned
