@@ -2,4 +2,3 @@ node_modules
 test.db
 error.log
 .env
-combined.log

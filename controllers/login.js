@@ -29,7 +29,7 @@ exports.submit = (req, res, next) => {
       });
 
       res.redirect("/");
-      logger.info("Token login " +res+ " transferred successfully");
+      logger.info("Token login " + " transferred successfully");
     }
   });
 };

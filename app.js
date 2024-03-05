@@ -4,10 +4,12 @@ const path = require("path");
 const fs = require("fs");
 const session = require("express-session");
 const cookieParser = require("cookie-parser");
+const passport = require("passport");
 
 const app = express();
 const myRoutes = require("./routers/index_routers");
 const userSession = require("./middleware/user_session");
+const passportFunction = require("./middleware/passport");
 require('dotenv').config();
 
 app.set("view engine", "ejs");
@@ -22,6 +24,8 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use(session({ secret: "aboba", resave: false, saveUninitialized: true }));
 app.use(cookieParser());
+app.use(passport.initialize());
+passportFunction(passport);
 
 app.use(
   "/css/bootstrap.css",

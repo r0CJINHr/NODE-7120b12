@@ -149,3 +149,78 @@
   level: 'info',
   timestamp: '2024-02-23T20:22:34.264Z'
 }
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:12:09.149Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:12:15.076Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:14:20.906Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-02-26T08:14:23.544Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-26T08:14:32.967Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:14:32.996Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:19:49.445Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-02-26T08:20:59.067Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-26T08:23:11.970Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:23:11.986Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:44:56.507Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-02-26T08:48:11.458Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-02-26T08:48:31.972Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:48:32.008Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-02-26T08:48:47.391Z'
+}
