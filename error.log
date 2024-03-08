@@ -454,3 +454,63 @@
   level: 'info',
   timestamp: '2024-03-02T12:38:58.914Z'
 }
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-08T16:29:36.554Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-08T16:29:38.646Z'
+}
+{
+  message: 'Получили профиль клиента от Yandex Пискаев  Денис',
+  level: 'warn',
+  timestamp: '2024-03-08T16:29:41.111Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-08T16:29:41.135Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-08T16:29:43.022Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-08T16:29:43.780Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-03-08T16:29:48.423Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-08T16:29:48.438Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-08T16:29:51.531Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-08T16:29:53.565Z'
+}
+{
+  message: 'Получили профиль клиента от Yandex Пискаев  Денис',
+  level: 'warn',
+  timestamp: '2024-03-08T16:29:55.168Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-08T16:29:55.186Z'
+}

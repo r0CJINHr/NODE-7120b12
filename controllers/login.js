@@ -6,7 +6,6 @@ require("dotenv").config();
 exports.form = (req, res) => {
   res.render("loginForm", { title: "Login" });
   logger.error("Зашли");
-
 };
 
 exports.submit = (req, res, next) => {
@@ -36,8 +35,9 @@ exports.submit = (req, res, next) => {
 
 exports.logout = function (req, res, next) {
   res.clearCookie("jwt");
+  res.clearCookie('connect.sid');  // clear the session cookie
   req.session.destroy((err) => {
     if (err) return next(err);
-    res.redirect("/");
   });
+  res.redirect("/");
 };
