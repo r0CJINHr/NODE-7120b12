@@ -8,7 +8,7 @@ const logger = require("../logger/index_logger");
 
 module.exports = function ensureAuthenticated(req, res, next) {
   if (req.isAuthenticated()) {
-    logger.info("Работает клиент от Yandex ");
+    logger.info("Работает клиент авторизованный от PassportJS ");
     return next();
   }
   logger.warn("Незарегистрированный клиент");

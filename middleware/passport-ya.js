@@ -3,7 +3,7 @@ const User = require("../models/user");
 const logger = require("../logger/index_logger");
 require("dotenv").config();
 
-function passportFunction(passport) {
+function passportFunctionYandex(passport) {
   passport.serializeUser(function (user, done) {
     //создать userData  в формате базы данных name,email, age
     //  у меня сейчас user.userDate= "xdepi36", user.name= {familyName:'Денис', givenName:'Пискаев'}, user.birthday:' '.
@@ -41,4 +41,4 @@ function passportFunction(passport) {
   );
 }
 
-module.exports = passportFunction;
+module.exports = passportFunctionYandex;

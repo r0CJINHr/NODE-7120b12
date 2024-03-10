@@ -1,0 +1,88 @@
+<!-- "Этот файл не нужен ,просто код сохранил на всякий" -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      .danstyle label {
+        display: inline-block;
+        width: 100px;
+      }
+      .danstyle input {
+        width: 500px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form
+      class="danstyle"
+      target="_blank"
+      action="https://accounts.google.com/o/oauth2/v2/auth"
+      enctype="application/x-www-form-urlencoded"
+      method="post"
+    >
+      <p>
+        <label>scope:</label
+        ><input
+          type="text"
+          name="scope"
+          value="https://www.googleapis.com/auth/userinfo.profile"
+        />
+      </p>
+      <p>
+        <label>client_id:</label
+        ><input
+          type="text"
+          name="client_id"
+          value="779313566943-kvji2e1dm84dbpe0mfmggl69od9iukls.apps.googleusercontent.com"
+        />
+      </p>
+      <input
+        type="hidden"
+        name="redirect_uri"
+        value="http://localhost:3000/auth/google/callback"
+      />
+      <input type="hidden" name="response_type" value="code" />
+      <input type="hidden" name="prompt" value="select_account" />
+      <p><input style="width: 80px" type="submit" value="Get code" /></p>
+    </form>
+    <hr style="border: 1px solid #49423d" size="0" />
+    <form
+      class="danstyle"
+      action="https://oauth2.googleapis.com/token"
+      enctype="application/x-www-form-urlencoded"
+      method="post"
+    >
+      <p>
+        <label>code:</label
+        ><input style="background-color: #90ee90" type="text" name="code" />
+      </p>
+      <p>
+        <label>client_id:</label
+        ><input
+          type="text"
+          name="client_id"
+          value="779313566943-kvji2e1dm84dbpe0mfmggl69od9iukls.apps.googleusercontent.com"
+        />
+      </p>
+      <p>
+        <label>client_secret:</label
+        ><input
+          type="text"
+          name="client_secret"
+          value="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"
+        />
+      </p>
+      <input
+        type="hidden"
+        name="redirect_uri"
+        value="http://localhost:3000/auth/google/callback"
+      />
+      <input type="hidden" name="grant_type" value="authorization_code" />
+      <input type="hidden" name="access_type" value="offline" />
+      <p><input style="width: 80px" type="submit" value="Get tokens" /></p>
+    </form>
+
+    <hr style="color: #49423d" />
+  </body>
+</html>

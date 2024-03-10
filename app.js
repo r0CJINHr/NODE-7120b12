@@ -9,7 +9,8 @@ const passport = require("passport");
 const app = express();
 const myRoutes = require("./routers/index_routers");
 const userSession = require("./middleware/user_session");
-const passportFunction = require("./middleware/passport");
+const passportFunctionYandex = require("./middleware/passport-ya");
+const passportFunctionGoogle = require("./middleware/passport-go");
 require('dotenv').config();
 
 app.set("view engine", "ejs");
@@ -27,7 +28,8 @@ app.use(cookieParser());
 
 app.use(passport.initialize());
 app.use(passport.session());
-passportFunction(passport);
+passportFunctionYandex(passport);
+passportFunctionGoogle(passport);
 
 app.use(
   "/css/bootstrap.css",
