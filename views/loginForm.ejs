@@ -13,11 +13,13 @@
     <p>Заполните форму ниже чтобы зарегистрироваться</p>
     <%- include ('./partials/messages') %>
     <div class="container">
-      <a href="/auth/yandex">
-        <button>
-          Яндекс вход
-        </button>
-      </a>
+      <div class="mb-3 row">
+        <div class="offset-sm-4 col-sm-8">
+          <a href="/auth/yandex">
+            <button class="btn btn-primary">Яндекс вход</button>
+          </a>
+        </div>
+      </div>
     </div>
     <div class="container">
       <form action="/login" method="post">
