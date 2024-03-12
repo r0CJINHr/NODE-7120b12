@@ -1,9 +1,8 @@
 const YandexStrategy = require("passport-yandex").Strategy;
-// const User = require("../models/user");
 const logger = require("../logger/index_logger");
 require("dotenv").config();
 
-function passportFunction(passport) {
+function passportFunctionYandex(passport) {
   passport.serializeUser(function (user, done) {
     //создать user в формате базы данных name,email,age
     const newUser = {};
@@ -40,4 +39,4 @@ function passportFunction(passport) {
     )
   );
 }
-module.exports = passportFunction;
+module.exports = passportFunctionYandex;

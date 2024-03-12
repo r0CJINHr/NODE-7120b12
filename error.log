@@ -224,3 +224,203 @@
   level: 'info',
   timestamp: '2024-02-26T08:48:47.391Z'
 }
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T06:24:41.405Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-12T06:26:24.181Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-03-12T06:28:27.721Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T06:28:27.736Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T06:28:39.202Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-12T06:28:41.022Z'
+}
+{
+  message: 'Получили профиль от Yandex ДенисПискаев',
+  level: 'info',
+  timestamp: '2024-03-12T06:28:45.267Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T06:28:45.286Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T06:35:45.532Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-12T06:36:07.575Z'
+}
+{
+  message: 'Получили профиль от Yandex ДенисПискаев',
+  level: 'info',
+  timestamp: '2024-03-12T06:36:10.932Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T06:36:10.965Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T06:36:59.578Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-12T06:37:05.504Z'
+}
+{
+  message: 'Получили профиль от Yandex ДенисПискаев',
+  level: 'info',
+  timestamp: '2024-03-12T06:37:06.982Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T06:37:07.004Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T06:38:51.176Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-12T06:38:52.614Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T08:39:06.782Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-12T08:39:11.823Z'
+}
+{
+  message: 'Получили профиль от Google ПискаевДенис',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:07.614Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:07.637Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:26.023Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-12T08:42:27.997Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:32.802Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:32.831Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-12T08:42:36.453Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:41.417Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:41.436Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:44.468Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-12T08:42:45.259Z'
+}
+{
+  message: 'Получили профиль от Yandex ДенисПискаев',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:47.238Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:47.253Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:49.355Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-12T08:42:50.318Z'
+}
+{
+  message: 'Получили профиль от Google ПискаевДенис',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:56.490Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:56.511Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-03-12T08:43:07.391Z'
+}
+{
+  message: 'создан пост Денис Пискаев',
+  level: 'warn',
+  timestamp: '2024-03-12T08:43:18.602Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-12T08:43:18.618Z'
+}
