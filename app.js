@@ -12,6 +12,7 @@ const userSession = require("./middleware/user_session");
 // const passportFunction = require("./middleware/passport_jwt");
 const passportFunctionYandex = require("./middleware/passport_yandex");
 const passportFunctionGoogle = require("./middleware/passport_go");
+const SequelizeCreate= require("./models/db.js");
 require('dotenv').config();
 
 app.set("view engine", "ejs");
@@ -76,6 +77,7 @@ if (app.get("env") != "development") {
   });
 }
 
-app.listen(port, function () {
-  console.log("Сервер запущен порт " + port);
+app.listen(port, async function () {
+  await SequelizeCreate.sync({force: false});
+  console.log("Сервер запущен порт " + port+", модели базы данных синхронизированы");
 });

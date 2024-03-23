@@ -1,14 +1,29 @@
-const User = require("../models/user");
+const User = require("../models/db");
 const jwt = require("jsonwebtoken");
 const logger = require("../logger/index_logger");
+const bycrypt=require("bcrypt");
 require("dotenv").config();
 
 exports.form = (req, res) => {
   res.render("loginForm", { title: "Login" });
   logger.error("Зашли");
-
 };
 
+function authentificate(dataForm, cb) {
+  User.findByEmail(dataForm.email, (err, user) => {
+    if (err) return cb(err);
+    if (!user) return cb();
+
+    const result = bcrypt.compare(
+      dataForm.password,
+      user.password,
+      (err, result) => {
+        if (result) return cb(null, user);
+        cb();
+      }
+    );
+  });
+}
 exports.submit = (req, res, next) => {
   User.authentificate(req.body.loginForm, (err, data) => {
     if (err) return next(err);
