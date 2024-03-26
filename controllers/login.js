@@ -1,31 +1,28 @@
-const User = require("../models/db");
+const {User} = require("../models/db");
 const jwt = require("jsonwebtoken");
 const logger = require("../logger/index_logger");
-const bycrypt=require("bcrypt");
+const bcrypt = require("bcrypt");
 require("dotenv").config();
 
 exports.form = (req, res) => {
   res.render("loginForm", { title: "Login" });
-  logger.error("Зашли");
+  logger.info("Зашли");
 };
 
-function authentificate(dataForm, cb) {
-  User.findByEmail(dataForm.email, (err, user) => {
-    if (err) return cb(err);
+async function authentificate(dataForm, cb) {
+  try {
+    const user = await User.findOne({ where: { email: dataForm.email } });
     if (!user) return cb();
-
-    const result = bcrypt.compare(
-      dataForm.password,
-      user.password,
-      (err, result) => {
-        if (result) return cb(null, user);
-        cb();
-      }
-    );
-  });
+    const result = await bcrypt.compare(dataForm.password, user.password);
+    if (result) return cb(null, user);
+    return cb();
+  } catch (err) {
+    logger.error("Не прошла аутентификация пользователя " + dataForm.email+ " " + err.message);
+    return cb(err);
+  }
 }
 exports.submit = (req, res, next) => {
-  User.authentificate(req.body.loginForm, (err, data) => {
+  authentificate(req.body.loginForm, (err, data) => {
     if (err) return next(err);
     if (!data) {
       res.error("Имя или пароль неверный");

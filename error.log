@@ -424,3 +424,2308 @@
   level: 'info',
   timestamp: '2024-03-12T08:43:18.618Z'
 }
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:23:09.900Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:23:09.914Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:23:19.378Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:23:19.395Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:23:55.864Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:23:55.874Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:23:55.877Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:23:55.878Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:24:03.230Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:24:03.239Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:24:03.241Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:24:03.242Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:27:57.660Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:27:57.686Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:27:57.692Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:27:57.698Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:31:01.988Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:31:01.999Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:31:02.002Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:31:02.005Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:31:10.960Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:31:10.972Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:31:10.975Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:31:10.978Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:31:46.323Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:31:46.340Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:31:46.347Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:31:46.353Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:32:06.151Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:32:06.160Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:32:06.163Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:32:06.165Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T17:32:31.408Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T17:32:31.458Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:37:35.964Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:37:35.984Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:37:37.423Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:37:37.432Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:37:42.329Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:37:42.341Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:37:42.342Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:37:42.344Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T17:38:14.699Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T17:38:14.730Z'
+}
+{
+  message: 'Зашли',
+  level: 'info',
+  timestamp: '2024-03-23T17:38:17.364Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'liza@';",
+  level: 'info',
+  timestamp: '2024-03-23T17:38:23.706Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-03-23T17:38:23.927Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T17:38:23.939Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T17:38:23.949Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T17:39:19.604Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T17:39:19.607Z'
+}
+{
+  message: 'Зашли',
+  level: 'info',
+  timestamp: '2024-03-23T17:39:20.846Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'liza@';",
+  level: 'info',
+  timestamp: '2024-03-23T17:39:25.506Z'
+}
+{
+  message: 'Зашли',
+  level: 'info',
+  timestamp: '2024-03-23T17:39:25.702Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:42:05.327Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:42:05.335Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:42:05.337Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:42:05.338Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:42:14.081Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:42:14.091Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:42:14.092Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:42:14.094Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:42:27.518Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:42:27.527Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:42:27.529Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:42:27.530Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:42:34.887Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:42:34.895Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:42:34.897Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:42:34.898Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:42:38.343Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:42:38.356Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:42:38.358Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:42:38.359Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:42:40.551Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:42:40.580Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:42:40.584Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:42:40.587Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:43:46.584Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:43:46.603Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:43:46.605Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:43:46.606Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:44:19.176Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:44:19.191Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:44:19.193Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:44:19.195Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:44:22.741Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:44:22.752Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:44:22.754Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:44:22.755Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:44:28.974Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:44:28.984Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:44:28.986Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:44:28.987Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:44:35.025Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:44:35.051Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:44:35.061Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:44:35.065Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T17:44:53.663Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T17:44:53.694Z'
+}
+{
+  message: 'Зашли',
+  level: 'info',
+  timestamp: '2024-03-23T17:45:03.784Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'liza@';",
+  level: 'info',
+  timestamp: '2024-03-23T17:45:09.003Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-03-23T17:45:09.177Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T17:45:09.186Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T17:45:09.195Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:46:10.866Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:46:10.884Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:46:10.888Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:46:10.891Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:46:11.888Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:46:11.899Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:46:11.901Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:46:11.903Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:47:54.831Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:47:54.841Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:47:54.843Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:47:54.845Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:47:56.157Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:47:56.166Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:47:56.168Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:47:56.169Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:48:10.910Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:48:10.928Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:48:10.933Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:48:10.936Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:49:08.922Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:49:08.930Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:49:08.931Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:49:08.932Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:53:21.228Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:53:21.236Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:53:21.238Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:53:21.239Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T17:53:34.982Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:53:34.997Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T17:53:35.004Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T17:53:35.009Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:25:58.380Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:25:58.388Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:25:58.390Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:25:58.391Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'assa@ds.qw';",
+  level: 'info',
+  timestamp: '2024-03-23T18:26:05.993Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `users` (`id`,`name`,`email`,`password`,`age`) VALUES (NULL,$1,$2,$3,$4);',
+  level: 'info',
+  timestamp: '2024-03-23T18:26:06.218Z'
+}
+{
+  message: 'First token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYXNzYUBkcy5xdyIsImlhdCI6MTcxMTIxODM2NiwiZXhwIjoxNzExMjIwMzY2fQ.zZvxnX8oK7vmvBIWK5w88ObLBc1u5D3cN_gHiui2bj8transferred successfully',
+  level: 'info',
+  timestamp: '2024-03-23T18:26:06.257Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T18:26:06.272Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T18:26:06.291Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T18:26:11.001Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T18:26:11.008Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'assa@ds.qe';",
+  level: 'info',
+  timestamp: '2024-03-23T18:26:34.789Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `users` (`id`,`name`,`email`,`password`,`age`) VALUES (NULL,$1,$2,$3,$4);',
+  level: 'info',
+  timestamp: '2024-03-23T18:26:34.963Z'
+}
+{
+  message: 'First token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYXNzYUBkcy5xZSIsImlhdCI6MTcxMTIxODM5NCwiZXhwIjoxNzExMjIwMzk0fQ.Iv8lY4g-lvpLS-bsWoEQNWSMw2adXlmn8RwmPhRQOEEtransferred successfully',
+  level: 'info',
+  timestamp: '2024-03-23T18:26:34.981Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T18:26:34.994Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T18:26:35.001Z'
+}
+{
+  message: 'Работает клиент от Yandex',
+  level: 'info',
+  timestamp: '2024-03-23T18:27:17.401Z'
+}
+{
+  message: 'Зашли',
+  level: 'info',
+  timestamp: '2024-03-23T18:27:17.409Z'
+}
+{
+  message: 'Работает клиент от Yandex',
+  level: 'info',
+  timestamp: '2024-03-23T18:27:24.897Z'
+}
+{
+  message: 'Зашли',
+  level: 'info',
+  timestamp: '2024-03-23T18:27:24.905Z'
+}
+{
+  message: 'Получили профиль от Google ПискаевДенис',
+  level: 'info',
+  timestamp: '2024-03-23T18:27:32.672Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T18:27:32.690Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T18:27:32.699Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-03-23T18:27:34.413Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:28:41.901Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:28:41.909Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:28:41.911Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:28:41.912Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:28:44.227Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:28:44.252Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:28:44.256Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:28:44.259Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:06.947Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:06.957Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:06.959Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:06.960Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:13.083Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:13.095Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:13.097Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:13.099Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:16.441Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:16.449Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:16.452Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:16.453Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:18.006Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:18.024Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:18.028Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:18.031Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:26.299Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:26.314Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:26.318Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:26.321Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:28.215Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:28.229Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:28.232Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:28.235Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:32.160Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:32.173Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:32.175Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:32.177Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:34.705Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:34.722Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:34.725Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:34.728Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:36.429Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:36.441Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:36.443Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:36.444Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:37.264Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:37.272Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:37.277Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:37.278Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:43.186Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:43.197Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:43.199Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:43.201Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:53.804Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:53.818Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:29:53.821Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:29:53.823Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:08.890Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:08.901Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:08.903Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:08.904Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:18.984Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:18.994Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:18.996Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:18.998Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:20.720Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:20.728Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:20.730Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:20.731Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:23.720Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:23.728Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:23.730Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:23.732Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:38.769Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:38.788Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:38.791Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:38.794Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:43.057Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:43.074Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:43.076Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:43.078Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:45.565Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:45.577Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:45.579Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:45.582Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:46.829Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:46.839Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:46.841Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:46.843Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:49.058Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:49.069Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:49.072Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:49.073Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:50.617Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:50.633Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:50.636Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:50.639Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:56.861Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:56.869Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:30:56.871Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:30:56.872Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:02.219Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:02.231Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:02.233Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:02.234Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:05.865Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:05.874Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:05.877Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:05.879Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:06.842Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:06.851Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:06.853Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:06.855Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:12.718Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:12.730Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:12.733Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:12.735Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:17.411Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:17.429Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:17.433Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:17.436Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:19.558Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:19.568Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:19.570Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:19.572Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:28.801Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:28.811Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:28.812Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:28.814Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:29.994Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:30.003Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:30.005Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:30.007Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:34.012Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:34.021Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:34.023Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:34.024Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:54.180Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:54.188Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:31:54.190Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:31:54.191Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:32:02.909Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:32:02.920Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:32:02.922Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:32:02.924Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:32:04.566Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:32:04.580Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:32:04.583Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:32:04.586Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:32:11.376Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:32:11.384Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:32:11.386Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:32:11.387Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:32:12.910Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:32:12.924Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:32:12.927Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:32:12.929Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:32:55.707Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:32:55.715Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:32:55.716Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:32:55.718Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:33:03.600Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:33:03.611Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:33:03.615Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:33:03.618Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:33:31.988Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:33:32.007Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:33:32.011Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:33:32.014Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:33:33.182Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:33:33.201Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:33:33.205Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:33:33.207Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:33:34.234Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:33:34.244Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:33:34.246Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:33:34.247Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:33:48.203Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:33:48.211Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:33:48.213Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:33:48.215Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:33:50.349Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:33:50.360Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:33:50.362Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:33:50.364Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:33:55.865Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:33:55.873Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:33:55.875Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:33:55.877Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:34:38.482Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:34:38.491Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:34:38.492Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:34:38.494Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:34:41.128Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:34:41.137Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:34:41.140Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:34:41.142Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:34:54.672Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:34:54.684Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:34:54.686Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:34:54.688Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:35:05.848Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:35:05.857Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:35:05.861Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:35:05.863Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:35:28.913Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:35:28.922Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:35:28.923Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:35:28.925Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:35:37.250Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:35:37.269Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:35:37.273Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:35:37.275Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:35:52.875Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:35:52.884Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:35:52.886Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:35:52.888Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:36:00.144Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:36:00.153Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:36:00.155Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:36:00.157Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:37:11.320Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:37:11.329Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:37:11.331Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:37:11.333Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:37:29.875Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:37:29.883Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:37:29.884Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:37:29.886Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:37:40.293Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:37:40.303Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:37:40.304Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:37:40.306Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:37:45.997Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:37:46.014Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:37:46.016Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:37:46.018Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:37:47.615Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:37:47.624Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:37:47.626Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:37:47.627Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:38:01.631Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:38:01.640Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:38:01.642Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:38:01.643Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:38:05.132Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:38:05.147Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:38:05.150Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:38:05.153Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:39:24.684Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:39:24.700Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:39:24.704Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:39:24.708Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:42:27.798Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:42:27.821Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:42:27.827Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:42:27.832Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:44:00.753Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:44:00.768Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:44:00.770Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:44:00.774Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:46:12.226Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:46:12.236Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:46:12.238Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:46:12.239Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:48:22.059Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:48:22.071Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:48:22.075Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:48:22.078Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-03-23T18:49:48.224Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:49:48.234Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-03-23T18:49:48.242Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-23T18:49:48.246Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T18:49:49.184Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T18:49:49.224Z'
+}
+{
+  message: 'Зашли',
+  level: 'info',
+  timestamp: '2024-03-23T18:49:53.585Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'liza@';",
+  level: 'info',
+  timestamp: '2024-03-23T18:49:58.650Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-03-23T18:49:58.831Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'liza@';",
+  level: 'info',
+  timestamp: '2024-03-23T18:49:58.844Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T18:49:58.846Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T18:49:58.857Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-03-23T18:50:01.252Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'liza@';",
+  level: 'info',
+  timestamp: '2024-03-23T18:50:01.255Z'
+}
+{
+  message: 'создан пост undefined',
+  level: 'warn',
+  timestamp: '2024-03-23T18:50:33.407Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'liza@';",
+  level: 'info',
+  timestamp: '2024-03-23T18:50:33.411Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `entries` (`id`,`title`,`content`) VALUES (NULL,$1,$2);',
+  level: 'info',
+  timestamp: '2024-03-23T18:50:33.415Z'
+}
+{
+  message: 'создан пост undefined',
+  level: 'warn',
+  timestamp: '2024-03-23T18:50:35.923Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'liza@';",
+  level: 'info',
+  timestamp: '2024-03-23T18:50:35.926Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `entries` (`id`,`title`,`content`) VALUES (NULL,$1,$2);',
+  level: 'info',
+  timestamp: '2024-03-23T18:50:35.927Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'liza@';",
+  level: 'info',
+  timestamp: '2024-03-23T18:50:39.027Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T18:50:39.035Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T18:50:39.040Z'
+}
+{
+  message: 'Зашли',
+  level: 'info',
+  timestamp: '2024-03-23T18:50:44.675Z'
+}
+{
+  message: 'Получили профиль от Google ПискаевДенис',
+  level: 'info',
+  timestamp: '2024-03-23T18:50:46.614Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T18:50:46.631Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T18:50:46.640Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-03-23T18:50:49.058Z'
+}
+{
+  message: 'создан пост Денис Пискаев',
+  level: 'warn',
+  timestamp: '2024-03-23T18:50:54.753Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `entries` (`id`,`username`,`title`,`content`) VALUES (NULL,$1,$2,$3);',
+  level: 'info',
+  timestamp: '2024-03-23T18:50:54.755Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-23T18:50:54.789Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-23T18:50:54.796Z'
+}

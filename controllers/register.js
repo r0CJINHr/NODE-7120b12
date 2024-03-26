@@ -1,38 +1,43 @@
-const User = require("../models/user");
+const { User } = require("../models/db");
 const jwt = require("jsonwebtoken");
 const logger = require("../logger/index_logger");
-// require("dotenv").config();
+const bcrypt = require("bcrypt");
+require("dotenv").config();
 
 exports.form = (req, res) => {
   res.render("registerForm", { title: "Register" });
 };
 
-exports.submit = (req, res, next) => {
-  User.findByEmail(req.body.dataForm.email, (err, user) => {
-    if (err) return next(err);
+exports.submit = async (req, res, next) => {
+  try {
+    const { name, email, password, age } = req.body.dataForm;
+    const user = await User.findOne({ where: { email: email } });
     if (user) {
       res.error("Такой пользователь в базе есть");
       res.redirect("/");
     } else {
-      User.create(req.body.dataForm, (err) => {
-        if (err) return next(err);
-        req.session.userEmail = req.body.dataForm.email;
-        req.session.userName = req.body.dataForm.name;
-        res.redirect("/");
-      });
-      // генерация токена
-      const jwt_time = process.env.jwtTime;
-      const token = jwt.sign({ name: req.body.dataForm.email }, process.env.jwtToken, {
-        expiresIn: jwt_time,
-      });
-      //создание cookies для пользователя
-      res.cookie("jwt", token, {
-        httpOnly: true,
-        maxAge: jwt_time,
-      });
-      logger.info("First token login " + " transferred successfully");
-      res.redirect("/");
-    }
-  });
-};
+      // хешируем пароль для записи в базу данных
+      const SALT = Number(process.env.SALT);
+      const salt = await bcrypt.genSalt(SALT);
+      const hash = await bcrypt.hash(password, salt);
 
+      await User.create({ name, email, password: hash, age });
+      req.session.userEmail = email;
+      req.session.userName = name;
+      res.redirect("/");
+      // // генерация токена
+      const jwt_time = process.env.jwtTime;
+      const token = jwt.sign(
+        { name: req.body.dataForm.email },
+        process.env.jwtToken,
+        {
+          expiresIn: jwt_time,
+        }
+      );
+      //создание cookies для пользователяпока выкинули в угоду passportJS
+      logger.info("First token  "+token+ "transferred successfully")
+    }
+  } catch (err) {
+    return next(err);
+  }
+};

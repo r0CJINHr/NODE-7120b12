@@ -1,13 +1,13 @@
 const logger = require("../logger/index_logger");
 const Sequelize = require("sequelize");
 
-const SequelizeCreate = new Sequelize({
+const sequelize = new Sequelize({
   dialect: "sqlite",
-  storage: "./test.db",
+  storage: "test.db",
   logging: (msg) => logger.info(msg),
 });
 // ===============================ORM класс Entry==================================
-const Entry = SequelizeCreate.define(
+const Entry = sequelize.define(
     "entries",
     {
       id: {
@@ -24,7 +24,7 @@ const Entry = SequelizeCreate.define(
   );
   
 //   ============================ORM класс User=========================================
-const User = SequelizeCreate.define(
+const User = sequelize.define(
     "users",
     {
       id: {
@@ -43,4 +43,4 @@ const User = SequelizeCreate.define(
     { timestamps: false }
     ) 
 
-module.exports = { SequelizeCreate, User, Entry };
+module.exports = { sequelize, User, Entry };

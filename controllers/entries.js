@@ -1,4 +1,4 @@
-const Entry = require("../models/db");
+const {Entry} = require("../models/db");
 const logger = require("../logger/index_logger");
 
 exports.list = async (req, res, next) => {
