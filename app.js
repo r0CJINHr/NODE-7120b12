@@ -12,12 +12,13 @@ const userSession = require("./middleware/user_session");
 // const passportFunction = require("./middleware/passport_jwt");
 const passportFunctionYandex = require("./middleware/passport_yandex");
 const passportFunctionGoogle = require("./middleware/passport_go");
-require('dotenv').config();
+const {sequelize} = require("./models/db");
+require("dotenv").config();
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 const port = process.env.PORT || 3000;
-app.set('port', port);
+app.set("port", port);
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -38,11 +39,9 @@ app.use(
 
 app.use(favicon(__dirname + "/public/favicon.ico"));
 
-
 app.use(require("./middleware/messages"));
 app.use(userSession);
 app.use(myRoutes);
-
 
 function addLine(line) {
   line = line + " timestamp: " + new Date().toLocaleString();
@@ -76,6 +75,9 @@ if (app.get("env") != "development") {
   });
 }
 
-app.listen(port, function () {
-  console.log("Сервер запущен порт " + port);
+app.listen(port, async function () {
+  await sequelize.sync({ force: false });
+  console.log(
+    "Сервер запущен порт " + port + " все базы данных синхронизированы "
+  );
 });

@@ -1,24 +1,25 @@
-const Entry = require("../models/entry");
+const {Entry} = require("../models/db");
 const logger = require("../logger/index_logger");
 
-exports.list = (req, res, next) => {
-  Entry.selectAll((err, entries) => {
-    if (err) return next(err);
+exports.list = async (req, res, next) => {
+  try {
+    const entries = await Entry.findAll();
     res.render("entries", { title: "List", entries: entries });
     logger.info("Зашли на главную страницу");
-  });
+  } catch (err) {
+    return next(err);
+  }
 };
-
 exports.form = (req, res) => {
   res.render("post", { title: "Post" });
   logger.warn("Зашли на страницу создания постов");
 };
 
-exports.submit = (req, res, next) => {
+exports.submit = async (req, res, next) => {
   try {
     const username = req.user ? req.user.name : null;
     const data = req.body.entry;
-    logger.warn("создан пост "+username);
+    logger.warn("создан пост " + username);
 
     const entry = {
       username: username,
@@ -26,7 +27,7 @@ exports.submit = (req, res, next) => {
       content: data.content,
     };
 
-    Entry.create(entry);
+    await Entry.create(entry);
     res.redirect("/");
   } catch (err) {
     return next(err);

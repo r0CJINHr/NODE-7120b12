@@ -1,5 +1,5 @@
 const JwtStrategy = require("passport-jwt").Strategy;
-const User = require("../models/user");
+const {User} = require("../models/db");
 const logger = require("../logger/index_logger");
 
 
@@ -19,9 +19,9 @@ const options = {
 
 function passportFunction(passport) {
   passport.use(
-    new JwtStrategy(options, function (jwt_payload, done) {
-      User.findByEmail(jwt_payload.name, (err, user) => {
-        if (err) return done(err, false);
+    new JwtStrategy(options, async function (jwt_payload, done) {
+      try{
+      const user = await User.findOne({ where: { email: dataForm.email } });
         if (user) {
           logger.info("Token accepted successfully");
           return done(null, user);
@@ -31,7 +31,7 @@ function passportFunction(passport) {
           logger.info("Token not accepted");
           return done(null, false);
         }
-      });
+      } catch (err) {return done(err, false);}
     })
   );
 }

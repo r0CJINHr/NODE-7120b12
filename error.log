@@ -424,3 +424,573 @@
   level: 'info',
   timestamp: '2024-03-12T08:43:18.618Z'
 }
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:56:09.498Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:56:09.509Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = OFF',
+  level: 'info',
+  timestamp: '2024-03-26T08:56:09.513Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:56:09.514Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:56:09.516Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = ON',
+  level: 'info',
+  timestamp: '2024-03-26T08:56:09.520Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:56:09.522Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `entries` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `username` VARCHAR(255), `title` VARCHAR(255), `content` VARCHAR(255));',
+  level: 'info',
+  timestamp: '2024-03-26T08:56:09.524Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-26T08:56:09.529Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:56:09.531Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255), `email` VARCHAR(255), `password` VARCHAR(255), `age` INTEGER);',
+  level: 'info',
+  timestamp: '2024-03-26T08:56:09.533Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-26T08:56:09.541Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:56:37.803Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-03-26T08:56:37.851Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-26T08:57:56.172Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'liza@' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-03-26T08:58:01.340Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-03-26T08:58:01.358Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:33:18.577Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:33:18.589Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = OFF',
+  level: 'info',
+  timestamp: '2024-04-02T07:33:18.595Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:33:18.598Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:33:18.601Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = ON',
+  level: 'info',
+  timestamp: '2024-04-02T07:33:18.606Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:33:18.610Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `entries` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `username` VARCHAR(255), `title` VARCHAR(255), `content` VARCHAR(255));',
+  level: 'info',
+  timestamp: '2024-04-02T07:33:18.614Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-04-02T07:33:18.621Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:33:18.625Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255), `email` VARCHAR(255), `password` VARCHAR(255), `age` INTEGER);',
+  level: 'info',
+  timestamp: '2024-04-02T07:33:18.627Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-04-02T07:33:18.636Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:35:33.401Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-04-02T07:35:33.444Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'assa@ds.qw' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-04-02T07:36:08.110Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:49:25.081Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:49:25.091Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = OFF',
+  level: 'info',
+  timestamp: '2024-04-02T07:49:25.095Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:49:25.096Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:49:25.097Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = ON',
+  level: 'info',
+  timestamp: '2024-04-02T07:49:25.098Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:49:25.100Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `entries` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `username` VARCHAR(255), `title` VARCHAR(255), `content` VARCHAR(255));',
+  level: 'info',
+  timestamp: '2024-04-02T07:49:25.103Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-04-02T07:49:25.108Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:49:25.113Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255), `email` VARCHAR(255), `password` VARCHAR(255), `age` INTEGER);',
+  level: 'info',
+  timestamp: '2024-04-02T07:49:25.118Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-04-02T07:49:25.125Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:49:33.578Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-04-02T07:49:33.590Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'assa@ds.qw' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-04-02T07:49:55.262Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.132Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.142Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = OFF',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.146Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.147Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.149Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = ON',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.151Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.153Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `entries` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `username` VARCHAR(255), `title` VARCHAR(255), `content` VARCHAR(255));',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.155Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.161Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.165Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255), `email` VARCHAR(255), `password` VARCHAR(255), `age` INTEGER);',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.167Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.172Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'assa@ds.qw' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.282Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `users` (`id`,`name`,`email`,`password`,`age`) VALUES (NULL,$1,$2,$3,$4);',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.346Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'assa@ds.qw' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.375Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.377Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-04-02T07:50:51.387Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:51:04.128Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:51:04.137Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = OFF',
+  level: 'info',
+  timestamp: '2024-04-02T07:51:04.141Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:51:04.142Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:51:04.143Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = ON',
+  level: 'info',
+  timestamp: '2024-04-02T07:51:04.145Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:51:04.147Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `entries` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `username` VARCHAR(255), `title` VARCHAR(255), `content` VARCHAR(255));',
+  level: 'info',
+  timestamp: '2024-04-02T07:51:04.151Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-04-02T07:51:04.159Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:51:04.160Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255), `email` VARCHAR(255), `password` VARCHAR(255), `age` INTEGER);',
+  level: 'info',
+  timestamp: '2024-04-02T07:51:04.163Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-04-02T07:51:04.172Z'
+}
+{
+  message: 'Работает клиент от Yandex',
+  level: 'info',
+  timestamp: '2024-04-02T07:51:13.366Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-04-02T07:51:13.418Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'sas' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-04-02T07:51:29.080Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-04-02T07:51:29.104Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-04-02T07:54:11.209Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-04-02T07:54:11.215Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-04-02T07:54:11.216Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-04-02T07:54:11.217Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-04-02T07:54:24.730Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-04-02T07:54:24.737Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-04-02T07:54:24.738Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-04-02T07:54:24.740Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:54:45.914Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-04-02T07:54:45.930Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-04-02T07:54:53.960Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'liza@' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-04-02T07:54:59.212Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-04-02T07:54:59.276Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'liza@' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-04-02T07:54:59.290Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:54:59.292Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-04-02T07:54:59.295Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'liza@' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-04-02T07:55:05.189Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:55:05.212Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-04-02T07:55:05.215Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-04-02T07:55:07.246Z'
+}
+{
+  message: 'Получили профиль от Yandex ДенисПискаев',
+  level: 'info',
+  timestamp: '2024-04-02T07:55:10.124Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:55:10.162Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-04-02T07:55:10.166Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:55:12.182Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-04-02T07:55:12.186Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-04-02T07:55:13.189Z'
+}
+{
+  message: 'Получили профиль от Google ПискаевДенис',
+  level: 'info',
+  timestamp: '2024-04-02T07:55:41.143Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:55:41.161Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-04-02T07:55:41.171Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-04-02T07:55:50.822Z'
+}
+{
+  message: 'создан пост Денис Пискаев',
+  level: 'warn',
+  timestamp: '2024-04-02T07:55:57.902Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `entries` (`id`,`username`,`title`,`content`) VALUES (NULL,$1,$2,$3);',
+  level: 'info',
+  timestamp: '2024-04-02T07:55:57.905Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-04-02T07:55:57.935Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-04-02T07:55:57.939Z'
+}
