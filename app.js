@@ -12,7 +12,8 @@ const userSession = require("./middleware/user_session");
 // const passportFunction = require("./middleware/passport_jwt");
 const passportFunctionYandex = require("./middleware/passport_yandex");
 const passportFunctionGoogle = require("./middleware/passport_go");
-const {sequelize} = require("./models/db");
+const passportFunctionVkontakte = require("./middleware/passport_vk");
+const { sequelize } = require("./models/db");
 require("dotenv").config();
 
 app.set("view engine", "ejs");
@@ -31,6 +32,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 passportFunctionYandex(passport);
 passportFunctionGoogle(passport);
+passportFunctionVkontakte(passport);
 
 app.use(
   "/css/bootstrap.css",
