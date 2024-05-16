@@ -13,6 +13,7 @@ const userSession = require("./middleware/user_session");
 const passportFunctionYandex = require("./middleware/passport_yandex");
 const passportFunctionGoogle = require("./middleware/passport_go");
 const passportFunctionVkontakte = require("./middleware/passport_vk");
+const passportFunctionGithub = require("./middleware/passport_github");
 const { sequelize } = require("./models/db");
 require("dotenv").config();
 
@@ -30,6 +31,7 @@ app.use(session({ secret: "aboba", resave: false, saveUninitialized: true }));
 app.use(cookieParser());
 app.use(passport.initialize());
 app.use(passport.session());
+passportFunctionGithub(passport);
 passportFunctionYandex(passport);
 passportFunctionGoogle(passport);
 passportFunctionVkontakte(passport);

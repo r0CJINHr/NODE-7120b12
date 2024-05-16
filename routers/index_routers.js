@@ -58,13 +58,25 @@ router.get(
 );
 
 router.get("/auth/vkontakte", passport.authenticate("vkontakte"));
-
 router.get(
   "/auth/vkontakte/callback",
   passport.authenticate("vkontakte", {
-    successRedirect: "http://localhost:3000/",
-    failureRedirect: "http://localhost:3000/",
+    successRedirect: "/",
+    failureRedirect: "/login",
   })
+);
+
+router.get(
+  "/auth/github",
+  passport.authenticate("github", { scope: ["user:email"] })
+);
+router.get(
+  "/auth/github/callback",
+  passport.authenticate("github", { failureRedirect: "/login" }),
+  function (req, res) {
+    // Successful authentication, redirect home.
+    res.redirect("/posts");
+  }
 );
 
 router.get("/logout", login.logout);
