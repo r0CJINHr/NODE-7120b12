@@ -1,4 +1,4 @@
-const {User} = require("../models/db");
+const { User } = require("../models/db");
 const jwt = require("jsonwebtoken");
 const logger = require("../logger/index_logger");
 const bcrypt = require("bcrypt");
@@ -21,7 +21,13 @@ async function authentificate(dataForm, cb) {
   }
 }
 
-exports.submit = (req, res, next) => {
+exports.submit = async (req, res, next) => {
+  try {
+    const user = await User.findOne({ where: { email: req.body.loginForm } });
+    if (!user) {
+      const result = await bcrypt.compare(dataForm.password, user.password);
+    }
+  } catch (error) {}
   authentificate(req.body.loginForm, (err, data) => {
     if (err) return next(err);
     if (!data) {

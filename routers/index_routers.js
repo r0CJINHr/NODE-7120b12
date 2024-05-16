@@ -54,7 +54,17 @@ router.get(
   passport.authenticate("google", {
     successRedirect: "/",
     failureRedirect: "/login",
-  }),
+  })
+);
+
+router.get("/auth/vkontakte", passport.authenticate("vkontakte"));
+
+router.get(
+  "/auth/vkontakte/callback",
+  passport.authenticate("vkontakte", {
+    successRedirect: "http://localhost:3000/",
+    failureRedirect: "http://localhost:3000/",
+  })
 );
 
 router.get("/logout", login.logout);
