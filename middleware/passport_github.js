@@ -1,9 +1,11 @@
 const GitHubStrategy = require("passport-github2").Strategy;
+const logger = require("../logger/index_logger");
+require("dotenv").config();
 
-function passportFunctionGithub(passport) {
-  passport.serializeUser(function (user, doneGT) {
-    console.log(user);
-    console.log("Github serialize");
+function passportFunctionGitHub(passport) {
+  passport.serializeUser(function (user, doneGIT) {
+    // console.log(user);
+    // console.log("Github serialize");
     const email = function () {
       if (user.provider == "google") {
         return user.email;
@@ -17,13 +19,14 @@ function passportFunctionGithub(passport) {
     };
     const newUser = {
       id: user.id,
-      username: user.displayName,
+      name: user.displayName,
       email: email(),
     };
-    return doneGT(null, newUser);
+    doneGIT(null, newUser);
   });
-  passport.deserializeUser(function (id, doneVK) {
-    return doneVK(null, id);
+
+  passport.deserializeUser(function (obj, done) {
+    done(null, obj);
   });
   passport.use(
     new GitHubStrategy(
@@ -32,11 +35,14 @@ function passportFunctionGithub(passport) {
         clientSecret: process.env.GITHUB_CLIENT_SECRET,
         callbackURL: "http://localhost:3000/auth/github/callback",
       },
-      function (accessToken, refreshToken, profile, doneGT) {
-        return doneGT(null, profile);
+      function (accessToken, refreshToken, profile, done) {
+        process.nextTick(function () {
+          logger.info(`Получили профиль от GitHub ${profile.displayName}`);
+          return done(null, profile);
+        });
       }
     )
   );
 }
 
-module.exports = passportFunctionGithub;
+module.exports = passportFunctionGitHub;

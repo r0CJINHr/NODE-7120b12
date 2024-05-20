@@ -2965,3 +2965,1663 @@
   level: 'info',
   timestamp: '2024-05-16T23:07:38.497Z'
 }
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-16T23:08:58.813Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-16T23:08:58.847Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-16T23:08:58.853Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-16T23:08:58.860Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-19T11:05:35.412Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-19T11:05:35.428Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-19T11:05:35.430Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-19T11:05:35.432Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T11:05:41.708Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T11:05:41.737Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T11:05:44.932Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-19T11:06:15.235Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-19T11:06:15.251Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-19T11:06:15.263Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-19T11:06:15.277Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T11:06:16.478Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T11:06:39.539Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-05-19T11:06:41.260Z'
+}
+{
+  message: 'создан пост undefined',
+  level: 'warn',
+  timestamp: '2024-05-19T11:07:39.571Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `entries` (`id`,`title`,`content`) VALUES (NULL,$1,$2);',
+  level: 'info',
+  timestamp: '2024-05-19T11:07:39.575Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T11:07:39.594Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T11:07:39.602Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T11:07:59.068Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T11:07:59.073Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T11:08:00.161Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T11:08:00.164Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T11:08:00.706Z'
+}
+{
+  message: 'Получили профиль от Yandex ДмитрийСидоров',
+  level: 'info',
+  timestamp: '2024-05-19T11:08:02.467Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T11:08:02.486Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T11:08:02.492Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T11:08:04.692Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T11:08:04.695Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-19T11:09:05.149Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-19T11:09:05.170Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-19T11:09:05.172Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-19T11:09:05.175Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-19T11:09:40.276Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-19T11:09:40.291Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-19T11:09:40.294Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-19T11:09:40.296Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T11:09:50.379Z'
+}
+{
+  message: 'Получили профиль от Yandex ДмитрийСидоров',
+  level: 'info',
+  timestamp: '2024-05-19T11:09:56.570Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T11:09:56.616Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T11:09:56.629Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T11:10:57.571Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T11:10:57.577Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T11:10:58.174Z'
+}
+{
+  message: 'Получили профиль от Yandex ДмитрийСидоров',
+  level: 'info',
+  timestamp: '2024-05-19T11:11:00.482Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T11:11:00.491Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T11:11:00.499Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T11:12:43.531Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T11:12:43.536Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T11:12:47.472Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-19T11:12:51.860Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-05-19T11:12:51.941Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T11:12:51.948Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T11:12:51.954Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T11:12:53.213Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-19T11:12:54.098Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-05-19T11:12:54.172Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T11:12:54.179Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T11:12:54.184Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T11:13:00.752Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'chaffeeplay@gmail.com' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-19T11:13:16.052Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `users` (`id`,`name`,`email`,`password`,`age`) VALUES (NULL,$1,$2,$3,$4);',
+  level: 'info',
+  timestamp: '2024-05-19T11:13:16.134Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T11:13:16.150Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T11:13:16.156Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:22:36.461Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-19T12:22:50.929Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-19T12:22:50.952Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-19T12:22:50.955Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-19T12:22:50.959Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:22:54.398Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:22:55.848Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:23:00.654Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'god' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-19T12:23:02.458Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:23:02.471Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'god' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-19T12:23:03.980Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:23:03.991Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-19T12:23:25.042Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-19T12:23:25.063Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-19T12:23:25.067Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-19T12:23:25.070Z'
+}
+{
+  message: 'Получили профиль от Yandex ДмитрийСидоров',
+  level: 'info',
+  timestamp: '2024-05-19T12:23:30.458Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T12:23:30.479Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T12:23:30.495Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T12:23:33.194Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T12:23:33.201Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:23:35.629Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T12:24:47.828Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T12:24:47.837Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-19T12:25:20.154Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-19T12:25:20.209Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-19T12:25:20.214Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-19T12:25:20.217Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-19T12:28:22.266Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-19T12:28:22.277Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-19T12:28:22.279Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-19T12:28:22.280Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T12:29:12.404Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T12:29:12.429Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:29:14.245Z'
+}
+{
+  message: 'Получили профиль от Yandex ДмитрийСидоров',
+  level: 'info',
+  timestamp: '2024-05-19T12:29:17.085Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T12:29:17.102Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T12:29:17.105Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T12:29:18.880Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T12:29:18.884Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:29:20.243Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T12:30:22.455Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T12:30:22.471Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T12:30:23.724Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T12:30:23.728Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:30:26.119Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:30:43.615Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-05-19T12:30:45.665Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-19T12:34:21.198Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-19T12:34:21.215Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-19T12:34:21.217Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-19T12:34:21.220Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-19T12:39:56.397Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-19T12:39:56.418Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-19T12:39:56.422Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-19T12:39:56.425Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T12:39:57.445Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T12:39:57.464Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:39:59.009Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-19T12:40:00.812Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-05-19T12:40:00.922Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T12:40:00.931Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T12:40:00.939Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:40:02.480Z'
+}
+{
+  message: 'Получили профиль от Yandex ДмитрийСидоров',
+  level: 'info',
+  timestamp: '2024-05-19T12:40:05.438Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T12:40:05.505Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T12:40:05.517Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T12:40:07.064Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T12:40:07.068Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-19T12:40:53.515Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-19T12:40:53.527Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-19T12:40:53.530Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-19T12:40:53.532Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:41:18.567Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'god' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-19T12:41:50.242Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:41:53.446Z'
+}
+{
+  message: 'Получили профиль от Yandex ДмитрийСидоров',
+  level: 'info',
+  timestamp: '2024-05-19T12:42:08.423Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T12:42:09.778Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T12:42:09.785Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-19T12:42:28.670Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-19T12:42:28.678Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-19T12:42:50.058Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-20T11:35:21.657Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-20T11:35:21.672Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-20T11:35:21.673Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-20T11:35:21.675Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:35:28.048Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:35:28.066Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:35:33.842Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:35:35.406Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-05-20T11:35:35.473Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:35:35.481Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:35:35.485Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:35:37.453Z'
+}
+{
+  message: 'Получили профиль от GitHub SidorovDmitrij',
+  level: 'info',
+  timestamp: '2024-05-20T11:35:40.617Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-20T11:36:42.757Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-20T11:36:42.771Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-20T11:36:42.773Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-20T11:36:42.775Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-20T11:37:12.316Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:12.327Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-20T11:37:12.329Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:12.331Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:20.756Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:20.779Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:37:22.200Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:37:23.548Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:23.630Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:37:23.638Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:23.638Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:23.646Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:37:25.214Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:25.220Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:25.224Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:37:25.976Z'
+}
+{
+  message: 'Получили профиль от Yandex ДмитрийСидоров',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:28.396Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:28.403Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:28.408Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:29.678Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:29.682Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:37:30.568Z'
+}
+{
+  message: 'Получили профиль от GitHub SidorovDmitrij',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:33.381Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:37:44.374Z'
+}
+{
+  message: 'Получили профиль от GitHub SidorovDmitrij',
+  level: 'info',
+  timestamp: '2024-05-20T11:37:46.780Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:38:41.215Z'
+}
+{
+  message: 'Получили профиль от Google undefinedwounderkind2004',
+  level: 'info',
+  timestamp: '2024-05-20T11:38:47.872Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:38:47.880Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:38:47.883Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:38:50.376Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:38:50.379Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:38:51.267Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:40:00.887Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:40:00.893Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:40:02.516Z'
+}
+{
+  message: 'Получили профиль от GitHub SidorovDmitrij',
+  level: 'info',
+  timestamp: '2024-05-20T11:40:12.008Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:40:38.131Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:40:38.135Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:40:39.090Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:40:39.096Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-05-20T11:40:41.833Z'
+}
+{
+  message: 'создан пост SidorovDmitrij',
+  level: 'warn',
+  timestamp: '2024-05-20T11:40:44.801Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `entries` (`id`,`username`,`title`,`content`) VALUES (NULL,$1,$2,$3);',
+  level: 'info',
+  timestamp: '2024-05-20T11:40:44.804Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:40:44.817Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:40:44.820Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:40:47.437Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:40:47.440Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:40:47.946Z'
+}
+{
+  message: 'Получили профиль от GitHub SidorovDmitrij',
+  level: 'info',
+  timestamp: '2024-05-20T11:40:50.126Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:40:57.481Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-05-20T11:40:58.872Z'
+}
+{
+  message: 'создан пост SidorovDmitrij',
+  level: 'warn',
+  timestamp: '2024-05-20T11:41:01.792Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `entries` (`id`,`username`,`title`,`content`) VALUES (NULL,$1,$2,$3);',
+  level: 'info',
+  timestamp: '2024-05-20T11:41:01.794Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:41:01.810Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:41:01.817Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:41:21.717Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:41:21.721Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:41:22.207Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-20T11:41:41.190Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-20T11:41:41.202Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-20T11:41:41.203Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-20T11:41:41.205Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:41:47.974Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:41:47.990Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:41:49.358Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:41:50.675Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-05-20T11:41:50.755Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:41:50.765Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:41:50.766Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:41:50.771Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:41:52.019Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:41:52.026Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:41:52.030Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:41:52.518Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:42:16.491Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:16.556Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:42:16.563Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:16.564Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:16.569Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:42:17.735Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:17.743Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:17.749Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:42:18.229Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:42:19.375Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:19.445Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:42:19.452Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:19.453Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:19.458Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:42:20.260Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:20.268Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:20.271Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:42:21.343Z'
+}
+{
+  message: 'Получили профиль от Yandex ДмитрийСидоров',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:23.212Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:23.219Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:23.222Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:24.613Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:24.616Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:42:25.163Z'
+}
+{
+  message: 'Получили профиль от GitHub SidorovDmitrij',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:27.331Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:42:35.848Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = 'god' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:42:37.232Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:42:37.242Z'
+}
+{
+  message: 'Получили профиль от GitHub SidorovDmitrij',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:40.444Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:42:41.273Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:42:42.809Z'
+}
+{
+  message: 'Получили профиль от GitHub SidorovDmitrij',
+  level: 'info',
+  timestamp: '2024-05-20T11:42:53.595Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:42:55.970Z'
+}
+{
+  message: 'Получили профиль от Google undefinedchaFFeeS',
+  level: 'info',
+  timestamp: '2024-05-20T11:43:02.472Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:43:02.479Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:43:02.482Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:43:08.458Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:43:08.461Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '228@228' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:43:27.859Z'
+}
+{
+  message: 'Executing (default): INSERT INTO `users` (`id`,`name`,`email`,`password`,`age`) VALUES (NULL,$1,$2,$3,$4);',
+  level: 'info',
+  timestamp: '2024-05-20T11:43:27.924Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '228@228' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:43:27.939Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:43:27.940Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:43:27.943Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '228@228' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:44:07.598Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:44:07.606Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:44:07.611Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:44:08.086Z'
+}
+{
+  message: 'Получили профиль от GitHub SidorovDmitrij',
+  level: 'info',
+  timestamp: '2024-05-20T11:44:10.306Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:44:12.929Z'
+}
+{
+  message: 'Зашли на страницу создания постов',
+  level: 'warn',
+  timestamp: '2024-05-20T11:44:14.629Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-20T11:47:38.163Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-20T11:47:38.175Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-20T11:47:38.177Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-20T11:47:38.179Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:47:41.021Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:47:41.033Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:47:41.590Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='entries';",
+  level: 'info',
+  timestamp: '2024-05-20T11:48:08.296Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:08.308Z'
+}
+{
+  message: "Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';",
+  level: 'info',
+  timestamp: '2024-05-20T11:48:08.311Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:08.313Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:21.764Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:21.782Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:48:23.028Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '228' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:48:25.975Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:48:25.988Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '228' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:48:29.876Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:48:29.887Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:48:34.138Z'
+}
+{
+  message: 'Token login  transferred successfully',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:34.204Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:48:34.211Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:34.212Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:34.217Z'
+}
+{
+  message: "Executing (default): SELECT `id`, `name`, `email`, `password`, `age` FROM `users` AS `users` WHERE `users`.`email` = '@liza' LIMIT 1;",
+  level: 'info',
+  timestamp: '2024-05-20T11:48:36.609Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:36.617Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:36.621Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:48:37.251Z'
+}
+{
+  message: 'Получили профиль от GitHub SidorovDmitrij',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:39.646Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:39.653Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:39.658Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:42.617Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:42.621Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:48:43.524Z'
+}
+{
+  message: 'Получили профиль от GitHub SidorovDmitrij',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:45.249Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:45.255Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:45.259Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:46.441Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:46.445Z'
+}
+{
+  message: 'Зашли',
+  level: 'error',
+  timestamp: '2024-05-20T11:48:47.750Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:50.479Z'
+}
+{
+  message: 'Executing (default): SELECT `id`, `username`, `title`, `content` FROM `entries` AS `entries`;',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:50.486Z'
+}
+{
+  message: 'Зашли на главную страницу',
+  level: 'info',
+  timestamp: '2024-05-20T11:48:50.489Z'
+}

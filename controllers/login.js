@@ -52,12 +52,14 @@ exports.submit = async (req, res, next) => {
   });
 };
 
-exports.logout = function (req, res, next) {
+exports.logout = (req, res, next) => {
   res.clearCookie("jwt");
   res.clearCookie("connect.sid");
-
   req.session.destroy((err) => {
-    if (err) return next(err);
+    if (err) {
+      logger.error(`Ошибка при попытке выхода из системы: ${err}`);
+      next(err);
+    }
     res.redirect("/");
   });
 };
